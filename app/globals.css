@@ -24,3 +24,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+h1{
+  font-size: 5rem;
+  color: red;
+  text-align: center;
+  margin-top: 5rem;
+}
