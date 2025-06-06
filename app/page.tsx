@@ -1,9 +1,14 @@
 import React from 'react'
+import Navbar from './components/Navbar'
+import HomeCtc from './components/home-ctc'
+import Numberplatesection from './components/Number-plate-section'
 
 const page = () => {
   return (
-    <div>
-      <h1>HSRP Number Plate</h1>
+    <div className='main'>
+      <Navbar />
+      <HomeCtc />
+      <Numberplatesection />
     </div>
   )
 }
