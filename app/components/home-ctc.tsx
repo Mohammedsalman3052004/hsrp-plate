@@ -49,7 +49,7 @@ const HomeCtc = () => {
               support bulk orders, custom fittings, and doorstep installation.
               Trusted by thousands, we offer reliable customer support and
               secure payment methods. Enhance your vehicle&apos;s identity and
-              compliance with India’s top-rated number plate provider.
+              compliance with India&apos;s top-rated number plate provider.
             </h4>
 
             <Link rel="stylesheet" href="/about-us">

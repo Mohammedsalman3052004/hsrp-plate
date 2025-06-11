@@ -67,9 +67,7 @@ const Numberplatesection = () => {
       <div className="padding-global">
         <div className="main-container">
           <div className="course-detail-title">
-            <h1 className="section-title">
-              Other <span>Courses</span>
-            </h1>
+            <h1 className="section-title">HSRP Number plate service</h1>
           </div>
           <div className="course-detail-cards">
             {ourCoursesCard.map((card, index) => (
