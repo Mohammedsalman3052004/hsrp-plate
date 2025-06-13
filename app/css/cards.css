@@ -7,8 +7,8 @@
   height: 26rem;
   padding: 1rem;
   border: 2px solid #000;
-  background-color: rgb(191, 14, 14);
   background: goldenrod;
+  background-color: #E3B505;
 }
 .courses-image-ctc {
   width: 100%;
@@ -48,6 +48,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  color: #02010A ;
 }
 .our-courses-description-text-ctc {
     margin-top: 15px;
@@ -59,6 +60,7 @@
   line-height: normal;
   max-width: 85%;
   text-align: left;
+  color: #F7F7FF;
 }
 .courses-btn-ctc {
   display: flex;

@@ -53,25 +53,25 @@ const Navbar = () => {
           </Link>
           <Link
             className="nav-links"
-            href="#our-therapy"
+            href="#numberplate"
             onClick={handleLinkClick}
           >
-            Services
+            Numeber Plates
           </Link>
           <Link
             className="nav-links"
-            href="#our-pricing"
+            href="#location"
             onClick={handleLinkClick}
           >
-            Pricing & Packages
+            Location
           </Link>
-          <Link
+          {/* <Link
             className="nav-links"
             href="#membership"
             onClick={handleLinkClick}
           >
             Membership
-          </Link>
+          </Link> */}
           <Link className="nav-links" href="#booking" onClick={handleLinkClick}>
             Book Now
           </Link>

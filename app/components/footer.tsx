@@ -25,15 +25,15 @@ const Footer = () => {
             <Link className="nav-links" href="/">
               Home
             </Link>
-            <Link className="nav-links" href="#our-therapy">
-              Services
+            <Link className="nav-links" href="#numberplate">
+            Numeber Plates
             </Link>
-            <Link className="nav-links" href="#our-pricing">
-              Pricing & Packages
+            <Link className="nav-links" href="#location">
+            Location
             </Link>
-            <Link className="nav-links" href="#membership">
+            {/* <Link className="nav-links" href="#membership">
               Membership
-            </Link>
+            </Link> */}
           </div>
           <div className="footer-content">
             <p className="footer-content-heading">Contact</p>

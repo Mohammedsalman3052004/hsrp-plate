@@ -5,6 +5,7 @@ import Numberplatesection from './components/Number-plate-section'
 import Location from './components/location'
 import Footer from './components/footer'
 import BookingForm from './components/booking'
+import DimensionsSection from "./components/diamension-section";
 
 const page = () => {
   return (
@@ -12,6 +13,7 @@ const page = () => {
       <Navbar />
       <HomeCtc />
       <Numberplatesection />
+      <DimensionsSection />
       <Location />
       <BookingForm />
       <Footer />
