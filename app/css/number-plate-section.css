@@ -1,48 +1,88 @@
+.section-title {
+  color: #2e2e2e;
+  text-align: center;
+  font-family: Lato;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 .course-detail-title {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 51px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 51px;
+}
+.course-detail-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.course-detail-courses {
+  margin: 50px auto;
+}
+
+@media (max-width: 768px) {
+  .course-detail-courses {
+    margin: 40px auto;
+    padding: 0 16px;
   }
+
+  .course-detail-title {
+    margin-bottom: 32px;
+    text-align: center;
+  }
+
+  .course-detail-title .section-title {
+    font-size: 1.8rem;
+    line-height: 1.3;
+    text-align: center;
+  }
+
   .course-detail-cards {
     display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+
+  .course-detail-card {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 40px;
+    align-items: center;
   }
+}
+
+
+@media (max-width: 768px) {
   .course-detail-courses {
-    margin: 50px auto;
+    margin: 40px auto;
+    padding: 0 16px;
   }
-  
-  @media (max-width: 768px) {
-    .course-detail-courses {
-      margin: 40px auto;
-      padding: 0 16px;
-    }
-  
-    .course-detail-title {
-      margin-bottom: 32px;
-      text-align: center;
-    }
-  
-    .course-detail-title .section-title {
-      font-size: 1.8rem;
-      line-height: 1.3;
-      text-align: center;
-    }
-  
-    .course-detail-cards {
-      display: flex;
-      flex-direction: column;
-      gap: 24px;
-      align-items: center;
-    }
-  
-    .course-detail-card {
-      width: 100%;
-      max-width: 400px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+
+  .course-detail-title {
+    margin-bottom: 32px;
+    text-align: center;
   }
-  
+
+  .course-detail-title .section-title {
+    font-size: 1.8rem;
+    line-height: 1.3;
+    text-align: center;
+  }
+
+  .course-detail-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+    /* grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); */
+    gap: 20px;
+    justify-items: center;
+  }
+
+  .course-detail-card {
+    width: 100%;
+    max-width: 180px;
+  }
+}

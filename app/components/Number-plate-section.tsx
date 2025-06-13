@@ -63,7 +63,7 @@ const Numberplatesection = () => {
   return (
     //     <div className="padding-global">
     //       <div className="main-container">
-    <div className="course-detail-courses">
+    <div className="course-detail-courses" id="numberplate">
       <div className="padding-global">
         <div className="main-container">
           <div className="course-detail-title">

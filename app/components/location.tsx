@@ -26,7 +26,7 @@ const Location = () => {
             </div>
           </div>
           <div className="location-btn-container">
-            <Link href="https://maps.app.goo.gl/MEVyNhtDMYSqca5z7">
+            <Link href="https://maps.app.goo.gl/ef7839QR8tvkeU6q6">
               <div className="location-btn">
                 <p>View on Map</p>
                 <Image

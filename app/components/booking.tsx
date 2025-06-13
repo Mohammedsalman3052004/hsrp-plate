@@ -1,8 +1,7 @@
-// app/booking/page.tsx or any component path
 "use client";
 
 import React, { useState, ChangeEvent, FormEvent } from "react";
-import "../css/booking.css"; // Import the CSS file
+import "../css/booking.css"; 
 
 interface Vehicle {
   id: string;
@@ -60,7 +59,7 @@ export default function BookingForm() {
   };
 
   return (
-    <div className="container">
+    <div className="container" id="booking">
       <form onSubmit={handleSubmit} className="form">
         <h2 className="heading">HSRP Plates Booking</h2>
 

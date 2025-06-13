@@ -19,13 +19,6 @@ const HomeCtc = () => {
 
   return (
     <section className="learning-journey">
-      <Image
-        src="/assets/Icons/right-mosque-icon.svg"
-        alt="Right Arrow"
-        className="right-mosque-icon"
-        height={1}
-        width={1}
-      />
       <div className="padding-global">
         <div className="main-container learning-journey-container">
           <div className="learning-journey-content">

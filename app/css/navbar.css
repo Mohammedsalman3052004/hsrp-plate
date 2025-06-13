@@ -1,6 +1,5 @@
 .navbar {
   width: 100%;
-  background: rgba(47, 74, 59, 1);
   background-color: goldenrod;
   height: 100px;
   padding: auto 100px;
@@ -12,12 +11,11 @@
   justify-content: space-evenly;
   align-items: center;
   height: 100%;
-  gap: 300px;
+  gap: 370px;
 }
 
 .nav-links-div {
   display: flex;
-  width: 30.5rem;
   height: 2.75rem;
   align-items: center;
   gap: 2.1875rem;
@@ -88,23 +86,23 @@
 .mobile-dropdown {
   display: flex;
   flex-direction: column;
-  background-color: rgba(47, 74, 59, 1);
-  padding: 2rem 1.5rem; /* Increased padding */
+  background-color: goldenrod;
+  padding: 2rem 1.5rem; 
   gap: 1.2rem;
   position: absolute;
-  top: 100%; /* Below navbar */
+  top: 100%; 
   right: 0;
   width: 100%;
   z-index: 9999;
 
-  /* Transition for smooth slide-down */
+  
   max-height: 500px;
   opacity: 1;
   visibility: visible;
   transition: all 0.3s ease-in-out;
 }
 
-/* Mobile Media Query */
+
 @media screen and (max-width: 768px) {
   .navbar {
     position: relative;

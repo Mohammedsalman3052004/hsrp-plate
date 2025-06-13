@@ -42,14 +42,14 @@ const Footer = () => {
             </Link>
             <Link
               className="footer-content-links"
-              href="mailto:springdaysspa@gmail.com"
+              href="mailto:hsrpnumberplate1@gmail.com"
             >
-              Email : hsrpnumberplate@gmail.com
+              Email : hsrpnumberplate1@gmail.com
             </Link>
           </div>
           <div className="footer-content">
             <p className="footer-content-heading">Address</p>
-            <Link className="footer-content-links-address" href="/">
+            <Link className="footer-content-links-address" href="https://maps.app.goo.gl/ef7839QR8tvkeU6q6">
               No:531r, Regional Transport Office Rd, Phase 2, Sathuvachari, Vellore - 632009.
             </Link>
           </div>
@@ -59,7 +59,7 @@ const Footer = () => {
         <div className="footer-icon-container">
           <div className="footer-icon-heading">Get in Touch</div>
           <div className="icon-container">
-            <Link href="tel:7200555001">
+            <Link href="tel:9003884178">
               <Image
                 src="../assets/icons/call.svg"
                 alt="call"
@@ -67,7 +67,7 @@ const Footer = () => {
                 width={30}
               />
             </Link>
-            <Link href="mailto:springdaysspa@gmail.com">
+            <Link href="mailto:hsrpnumberplate1@gmail.com">
               <Image
                 src="../assets/icons/email.svg"
                 alt="email"
@@ -91,7 +91,7 @@ const Footer = () => {
                 width={30}
               />
             </Link>
-            <Link href="https://maps.app.goo.gl/MEVyNhtDMYSqca5z7">
+            <Link href="https://maps.app.goo.gl/ef7839QR8tvkeU6q6">
               <Image
                 src="../assets/icons/location.svg"
                 alt="call"
@@ -99,7 +99,7 @@ const Footer = () => {
                 width={30}
               />
             </Link>
-            <Link href=" https://wa.me/7200555001">
+            <Link href=" https://wa.me/9003884178">
               <Image
                 src="../assets/icons/whatsapp.svg"
                 alt="email"

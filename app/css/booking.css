@@ -1,92 +1,140 @@
 .container {
-    /* min-height: 100vh; */
-    /* background: linear-gradient(to bottom right, #ffe4e6, #fbcfe8); */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    margin: 55px auto;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 55px auto;
+}
+
+.form {
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #f9f5f5;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 24px;
+  color: #2e2e2e;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.label {
+  width: 100px;
+  font-weight: bold;
+  color: #4b5563;
+}
+
+.input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  margin-right: 10px;
+}
+
+.vehicle-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  gap: 10px;
+}
+
+.add-button {
+  background-color: #2e2e2e;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.add-button:hover {
+  background-color: goldenrod;
+}
+
+.remove-button {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.submit-button {
+  background-color: #2e2e2e;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.submit-button:hover {
+  background-color: goldenrod;
+}
+
+.center {
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
   .form {
-    /* background-color: #fff0f5; */
-    padding: 30px;
-    border-radius: 12px;
+    padding: 20px;
     width: 100%;
-    max-width: 600px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    box-shadow: none;
+    border-radius: 0.75rem;
   }
-  
-  .heading {
-    text-align: center;
-    margin-bottom: 24px;
-    font-size: 24px;
-    color: goldenrod;
-  }
-  
+
   .input-group {
-    display: flex;
-    align-items: center;
-    margin-bottom: 16px;
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
+
   .label {
-    width: 100px;
-    font-weight: bold;
-    color: #4b5563;
+    width: 100%;
+    margin-bottom: 6px;
+    font-size: 15px;
   }
-  
-  .input {
-    flex: 1;
-    padding: 8px 12px;
-    border: 1px solid #d1d5db;
-    border-radius: 6px;
-    font-size: 16px;
-  }
-  
-  .select {
-    padding: 8px;
-    border-radius: 6px;
-    border: 1px solid #d1d5db;
-    margin-right: 10px;
-  }
-  
+
   .vehicle-group {
-    display: flex;
-    align-items: center;
-    margin-bottom: 12px;
-    gap: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
   }
-  
-  .add-button {
-    background-color: goldenrod;
-    color: white;
-    border: none;
-    padding: 6px 12px;
-    border-radius: 6px;
-    cursor: pointer;
+
+  .select,
+  .input {
+    width: 100%;
   }
-  
+
+  .add-button,
   .remove-button {
-    background-color: #ef4444;
-    color: white;
-    border: none;
-    padding: 6px 12px;
-    border-radius: 6px;
-    cursor: pointer;
+    width: 100%;
+    padding: 8px;
   }
-  
+
   .submit-button {
-    background-color: goldenrod;
-    color: white;
-    border: none;
-    padding: 10px 24px;
-    border-radius: 8px;
+    width: 100%;
+    padding: 12px;
     font-size: 16px;
-    cursor: pointer;
   }
-  
-  .center {
-    text-align: center;
-  }
-  
+}
