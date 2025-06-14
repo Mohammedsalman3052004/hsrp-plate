@@ -11,11 +11,11 @@ const page = () => {
   return (
     <div className='main'>
       <Navbar />
-      <HomeCtc />
       <Numberplatesection />
       <DimensionsSection />
       <Location />
       <BookingForm />
+      <HomeCtc />
       <Footer />
     </div>
   )

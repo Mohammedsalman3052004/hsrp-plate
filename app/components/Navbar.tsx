@@ -1,84 +1,125 @@
-"use client";
-import React, { useState } from "react";
-import "../css/navbar.css";
-import Link from "next/link";
-import Image from "next/image";
+"use client"
+import { useState } from "react"
+import Link from "next/link"
+import Image from "next/image"
 
 const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false)
 
   const handleLinkClick = () => {
-    setMenuOpen(false);
-  };
+    setMenuOpen(false)
+  }
 
   return (
-    <div className="navbar">
-      <div className="nav-padding">
-        <div className="nav-logo-div">
-          <Image src="/images/logo.jpg" alt="logo" height={75} width={75} />
-        </div>
-
-        {/* Desktop Links */}
-        <div className="nav-links-div">
-          <Link className="nav-links" href="/">
-            Home
-          </Link>
-          <Link className="nav-links" href="#numberplate">
-            Numeber Plates
-          </Link>
-          <Link className="nav-links" href="#location">
-            Location
-          </Link>
-        </div>
-
-        <Link className="nav-linkss" href="#booking">
-          <div className="nav-booking-div">
-            <p>Booking Now</p>
+    <nav className="w-full bg-gradient-to-r from-yellow-500 to-yellow-600 shadow-lg relative z-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-20">
+          {/* Logo */}
+          <div className="flex-shrink-0">
+            <Link href="/" className="flex items-center">
+              <Image
+                src="/images/logo.jpg"
+                alt="logo"
+                height={60}
+                width={60}
+                className="rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+              />
+            </Link>
           </div>
-        </Link>
 
-        {/* Hamburger Icon (Mobile Only) */}
-        <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
-          <span className="bar" />
-          <span className="bar" />
-          <span className="bar" />
+          {/* Desktop Navigation */}
+          <div className="hidden md:block">
+            <div className="ml-10 flex items-baseline space-x-8">
+              <Link
+                href="/"
+                className="text-white hover:text-gray-900 px-3 py-2 rounded-md text-base font-semibold transition-colors duration-300 hover:bg-white/10"
+              >
+                Home
+              </Link>
+              <Link
+                href="#numberplate"
+                className="text-white hover:text-gray-900 px-3 py-2 rounded-md text-base font-semibold transition-colors duration-300 hover:bg-white/10"
+              >
+                Number Plates
+              </Link>
+              <Link
+                href="#location"
+                className="text-white hover:text-gray-900 px-3 py-2 rounded-md text-base font-semibold transition-colors duration-300 hover:bg-white/10"
+              >
+                Location
+              </Link>
+            </div>
+          </div>
+
+          {/* Desktop Booking Button */}
+          <div className="hidden md:block">
+            <Link href="#booking">
+              <button className="bg-gray-900 hover:bg-yellow-700 text-white hover:text-yellow-100 px-6 py-2.5 rounded-lg font-semibold text-sm transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg border-2 border-transparent hover:border-yellow-300">
+                Booking Now
+              </button>
+            </Link>
+          </div>
+
+          {/* Mobile Hamburger Button */}
+          <div className="md:hidden">
+            <button
+              onClick={() => setMenuOpen(!menuOpen)}
+              className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-gray-900 hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white transition-colors duration-300"
+              aria-expanded="false"
+            >
+              <span className="sr-only">Open main menu</span>
+              {/* Hamburger Icon */}
+              <div className="w-6 h-6 flex flex-col justify-center items-center">
+                <span
+                  className={`bg-current block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${menuOpen ? "rotate-45 translate-y-1" : "-translate-y-0.5"}`}
+                ></span>
+                <span
+                  className={`bg-current block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${menuOpen ? "opacity-0" : "opacity-100"}`}
+                ></span>
+                <span
+                  className={`bg-current block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${menuOpen ? "-rotate-45 -translate-y-1" : "translate-y-0.5"}`}
+                ></span>
+              </div>
+            </button>
+          </div>
         </div>
       </div>
 
-      {/* Mobile Dropdown Menu */}
-      {menuOpen && (
-        <div className="mobile-dropdown">
-          <Link className="nav-links" href="/" onClick={handleLinkClick}>
+      {/* Mobile Menu */}
+      <div
+        className={`md:hidden transition-all duration-300 ease-in-out ${menuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"} overflow-hidden`}
+      >
+        <div className="px-2 pt-2 pb-3 space-y-1 bg-yellow-600/95 backdrop-blur-sm border-t border-yellow-400/30">
+          <Link
+            href="/"
+            onClick={handleLinkClick}
+            className="text-white hover:text-gray-900 hover:bg-white/10 block px-3 py-2 rounded-md text-base font-semibold transition-colors duration-300"
+          >
             Home
           </Link>
           <Link
-            className="nav-links"
             href="#numberplate"
             onClick={handleLinkClick}
+            className="text-white hover:text-gray-900 hover:bg-white/10 block px-3 py-2 rounded-md text-base font-semibold transition-colors duration-300"
           >
-            Numeber Plates
+            Number Plates
           </Link>
           <Link
-            className="nav-links"
             href="#location"
             onClick={handleLinkClick}
+            className="text-white hover:text-gray-900 hover:bg-white/10 block px-3 py-2 rounded-md text-base font-semibold transition-colors duration-300"
           >
             Location
           </Link>
-          {/* <Link
-            className="nav-links"
-            href="#membership"
-            onClick={handleLinkClick}
-          >
-            Membership
-          </Link> */}
-          <Link className="nav-links" href="#booking" onClick={handleLinkClick}>
-            Book Now
+          <Link href="#booking" onClick={handleLinkClick} className="block px-3 py-2">
+            <button className="w-full bg-gray-900 hover:bg-yellow-700 text-white hover:text-yellow-100 px-4 py-2.5 rounded-lg font-semibold text-sm transition-all duration-300 shadow-md hover:shadow-lg border-2 border-transparent hover:border-yellow-300">
+              Book Now
+            </button>
           </Link>
         </div>
-      )}
-    </div>
-  );
-};
+      </div>
+    </nav>
+  )
+}
 
-export default Navbar;
+export default Navbar

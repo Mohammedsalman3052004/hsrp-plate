@@ -3,7 +3,7 @@
 export default function DimensionsSection() {
   const bikeSpecifications = [
     {
-      serviceType: "Motorcycle / Scooter / Two Wheeler",
+      serviceType: "Motorcycle / Scooter",
       dimensions: "28.5L x 10W cm",
       frontPlateSize: "28.2 cm x 4.3 cm",
       rearPlateSize: "19.5 cm x 10.16 cm",
@@ -15,7 +15,7 @@ export default function DimensionsSection() {
       serialCode: "No Serial/Bar Code",
     },
     {
-      serviceType: "Bicycle",
+      serviceType: "Two Wheeler",
       dimensions: "28.5L x 10W cm",
       frontPlateSize: "28.2 cm x 4.3 cm",
       rearPlateSize: "19.5 cm x 10.16 cm",

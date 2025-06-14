@@ -1,104 +1,111 @@
-import React from "react";
-import Cards from "./cards";
-import "../css/number-plate-section.css";
+import Cards from "./cards"
 
-const ourCoursesCard = [
+const cardsData = [
   {
-    image: "/images/c4.jpg",
+    images: "/images/c4.jpg",
     title: "Bike Number Plate (Normal)",
     pricing: "₹300 - ₹450",
-    paragraph: "(Not including delivery charges)",
+    paragraph:
+      "High-quality normal bike number plates with durable materials. Perfect for standard vehicles with professional finishing.",
   },
   {
-    image: "/images/c1.jpg",
+    images: "/images/c1.jpg",
     title: "Bike Number Plate (IND)",
     pricing: "₹400 - ₹700",
-    paragraph: "(Not including delivery charges)",
+    paragraph: "Premium IND format bike number plates with enhanced visibility and compliance with latest regulations.",
   },
   {
-    image: "/images/c3.jpg",
-    title: "Bike Number Plate (Normal)",
+    images: "/images/c13.png",
+    title: "EV Bike Number Plate (IND)",
+    pricing: "₹400 - ₹700",
+    paragraph: "Premium IND format bike number plates with enhanced visibility and compliance with latest regulations.",
+  },
+  {
+    images: "/images/c3.jpg",
+    title: "Bike Number Plate (plane)",
     pricing: "₹100 - ₹150",
-    paragraph: "(Not including delivery charges)",
+    paragraph:
+      "Budget-friendly bike number plates without compromising on quality. Ideal for cost-conscious customers.",
   },
   {
-    image: "/images/c5.jpg",
+    images: "/images/c5.jpg",
     title: "Bike Number Plate (Case)",
-    pricing: "₹300 - ₹450",
-    paragraph: "(Not including delivery charges)",
+    pricing: "₹500 - ₹800",
+    paragraph:
+      "Professional car number plates with superior durability and weather resistance for long-lasting performance.",
   },
   {
-    image: "/images/home.jpg",
-    title: "Car Number Plate (Black)",
-    pricing: "₹400 - ₹650",
-    paragraph: "(Not including delivery charges)",
+    images: "/images/home.jpg",
+    title: "Car Number Plate (Normal)",
+    pricing: "₹800 - ₹1200",
+    paragraph: "Premium car number plates with advanced materials and enhanced aesthetics for luxury vehicles.",
   },
   {
-    image: "/images/c8.jpg",
+    images: "/images/c8.jpg",
     title: "Car Number Plate (IND)",
-    pricing: "₹300 - ₹450",
-    paragraph: "(Not including delivery charges)",
+    pricing: "₹600 - ₹900",
+    paragraph: "Heavy-duty number plates designed for commercial vehicles with extra strength and visibility features.",
   },
   {
-    image: "/images/c6.jpg",
+    images: "/images/c7.jpg",
     title: "Car Yellow Number Plate (Normal)",
-    pricing: "₹300 - ₹450",
-    paragraph: "(Not including delivery charges)",
+    pricing: "₹600 - ₹900",
+    paragraph: "Heavy-duty number plates designed for commercial vehicles with extra strength and visibility features.",
   },
   {
-    image: "/images/c7.jpg",
+    images: "/images/c6.jpg",
     title: "Car Yellow Number Plate (IND)",
-    pricing: "₹300 - ₹450",
-    paragraph: "(Not including delivery charges)",
+    pricing: "₹600 - ₹900",
+    paragraph: "Heavy-duty number plates designed for commercial vehicles with extra strength and visibility features.",
   },
   {
-    image: "/images/c10.jpg",
+    images: "/images/c12.jpg",
+    title: "EV Car Number Plate (IND)",
+    pricing: "₹600 - ₹900",
+    paragraph: "Heavy-duty number plates designed for commercial vehicles with extra strength and visibility features.",
+  },
+  {
+    images: "/images/c10.jpg",
     title: "Car Number Plate (Case)",
-    pricing: "₹300 - ₹450",
-    paragraph: "(Not including delivery charges)",
+    pricing: "₹600 - ₹900",
+    paragraph: "Heavy-duty number plates designed for commercial vehicles with extra strength and visibility features.",
   },
-  {
-    image: "/images/c13.png",
-    title: "EV Bike Number Plate",
-    pricing: "₹300 - ₹450",
-    paragraph: "(Not including delivery charges)",
-  },
-  {
-    image: "/images/c12.jpg",
-    title: "EV Car Number Plate",
-    pricing: "₹300 - ₹450",
-    paragraph: "(Not including delivery charges)",
-  },
-];
+]
 
-const Numberplatesection = () => {
+export default function Page() {
   return (
-    //     <div className="padding-global">
-    //       <div className="main-container">
-    <div className="course-detail-courses" id="numberplate">
-      <div className="padding-global">
-        <div className="main-container">
-          <div className="course-detail-title">
-            <h1 className="section-title">HSRP Number plate service</h1>
-          </div>
-          <div className="course-detail-cards">
-            {ourCoursesCard.map((card, index) => (
-              <div className="course-detail-card" key={index}>
-                <Cards
-                  images={card.image}
-                  title={card.title}
-                  pricing={card.pricing}
-                  paragraph={card.paragraph}
-                />
-              </div>
-            ))}
-          </div>
+    <main className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-8 md:py-12">
+      <div className="containerr mx-auto px-4">
+        {/* Hero Section */}
+        <div className="text-center mb-12 md:mb-16">
+          <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
+            HSRP Number Plate <span className="text-yellow-500">Service</span>
+          </h1>
+          <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
+            Professional number plate solutions with premium quality and fast delivery
+          </p>
+        </div>
+
+        {/* Cards Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+          {cardsData.map((card, index) => (
+            <Cards
+              key={index}
+              images={card.images}
+              title={card.title}
+              pricing={card.pricing}
+              paragraph={card.paragraph}
+            />
+          ))}
+        </div>
+
+        {/* Additional Info Section */}
+        <div className="mt-16 text-center">
+          <p className="text-gray-500 text-sm md:text-base">
+            * Prices do not include delivery charges. All plates comply with government regulations.
+          </p>
         </div>
       </div>
-    </div>
-    //   </div>
-    // </div>
-  );
-};
-
-export default Numberplatesection;
+    </main>
+  )
+}
