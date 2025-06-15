@@ -37,10 +37,10 @@ const Navbar = () => {
                 Home
               </Link>
               <Link
-                href="#numberplate"
+                href="#platesdimensions"
                 className="text-white hover:text-gray-900 px-3 py-2 rounded-md text-base font-semibold transition-colors duration-300 hover:bg-white/10"
               >
-                Number Plates
+                Plates Diamensions
               </Link>
               <Link
                 href="#location"
@@ -98,11 +98,11 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            href="#numberplate"
+            href="#platesdimensions"
             onClick={handleLinkClick}
             className="text-white hover:text-gray-900 hover:bg-white/10 block px-3 py-2 rounded-md text-base font-semibold transition-colors duration-300"
           >
-            Number Plates
+            Plates Dimensions
           </Link>
           <Link
             href="#location"

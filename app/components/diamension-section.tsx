@@ -56,7 +56,7 @@ export default function DimensionsSection() {
   ]
 
   return (
-    <section className="py-16 px-4" style={{ backgroundColor: "#f9fafb" }}>
+    <section id="platesdimensions" className="py-16 px-4" style={{ backgroundColor: "#f9fafb" }}>
       <div style={{ maxWidth: "1280px", margin: "0 auto" }}>
         <div style={{ textAlign: "center", marginBottom: "48px" }}>
           <h2

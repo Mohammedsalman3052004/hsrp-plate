@@ -37,10 +37,10 @@ const Footer = () => {
                 Home
               </Link>
               <Link
-                href="#numberplate"
+                href="#platesdimensions"
                 className="block text-gray-300 hover:text-amber-400 transition-colors duration-200 font-medium"
               >
-                Number Plates
+                Plates Dimensions 
               </Link>
               <Link
                 href="#location"

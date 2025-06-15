@@ -74,20 +74,20 @@ const cardsData = [
 
 export default function Page() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-8 md:py-12">
+    <main className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-6 lg:py-12">
       <div className="containerr mx-auto px-4">
         {/* Hero Section */}
-        <div className="text-center mb-12 md:mb-16">
-          <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
+        <div className="text-center mb-8 lg:mb-16">
+          <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-gray-900 mb-2 lg:mb-4">
             HSRP Number Plate <span className="text-yellow-500">Service</span>
           </h1>
-          <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-sm sm:text-base lg:text-xl text-gray-600 max-w-2xl mx-auto">
             Professional number plate solutions with premium quality and fast delivery
           </p>
         </div>
 
-        {/* Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+        {/* Cards Grid - 2 columns on mobile, 3 on desktop */}
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8">
           {cardsData.map((card, index) => (
             <Cards
               key={index}
@@ -100,8 +100,8 @@ export default function Page() {
         </div>
 
         {/* Additional Info Section */}
-        <div className="mt-16 text-center">
-          <p className="text-gray-500 text-sm md:text-base">
+        <div className="mt-8 lg:mt-16 text-center">
+          <p className="text-gray-500 text-xs sm:text-sm lg:text-base">
             * Prices do not include delivery charges. All plates comply with government regulations.
           </p>
         </div>
