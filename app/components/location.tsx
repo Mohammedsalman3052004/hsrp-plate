@@ -3,7 +3,7 @@ import Link from "next/link"
 
 const Location = () => {
   return (
-    <section className="py-16 px-4 bg-gradient-to-br from-gray-50 to-white" id="location">
+    <section className="py-2 px-4 bg-gradient-to-br from-gray-50 to-white" id="location">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-16">
@@ -45,7 +45,7 @@ const Location = () => {
 
                 <div className="bg-white p-6 rounded-2xl shadow-lg border border-gray-100">
                   <p className="text-gray-800 text-lg lg:text-xl font-medium leading-relaxed">
-                    No:53, APL Layout Extension, Venkatapuram Road, Alamelumangapuram, Vellore - 632009.
+                    No:531r, Regional Transport Office Rd, Phase 2, Sathuvachari, Vellore - 632009
                   </p>
                 </div>
               </div>

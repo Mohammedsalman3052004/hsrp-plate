@@ -2,7 +2,6 @@
 
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import "../css/home-ctc.css";
 
 const HomeCtc = () => {
   const imageWrapperRef = useRef(null);
@@ -16,16 +15,16 @@ const HomeCtc = () => {
     <section className="learning-journey mb-14">
       <div className="padding-global">
         <div className="main-container learning-journey-container">
-          <div className="learning-journey-content full-width">
-            <h4 className="learning-journey-description">
+          <div className="px-6 text-justify full-width">
+            <h4 className="">
               At our trusted{" "}
-              <span className="learning-journey-description-span">
+              <span className="text-yellow-400">
                 HSRP Number plate service
               </span>
               , we specialize in High Security Registration Plates (HSRP) and
               IND number plates for all types of vehicles across India. With a
               legacy of excellence{" "}
-              <span className="learning-journey-description-span">
+              <span className="text-yellow-400">
                 since 1984
               </span>
               , we provide fast, legal, and RTO-approved number plates that
