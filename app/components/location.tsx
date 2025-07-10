@@ -17,7 +17,7 @@ const Location = () => {
           <div className="relative group">
             <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-3xl overflow-hidden shadow-2xl transform transition-all duration-500 group-hover:scale-105 group-hover:shadow-3xl">
               <Image
-                src="/images/shop.jpg"
+                src="/images/shop.png"
                 alt="Shop Location"
                 height={500}
                 width={500}
@@ -54,6 +54,7 @@ const Location = () => {
               <div className="pt-4">
                 <Link
                   href="https://maps.app.goo.gl/ef7839QR8tvkeU6q6"
+                  target="_blank"
                   className="group inline-flex items-center gap-4 bg-gray-800 hover:bg-yellow-600 text-white px-8 py-4 rounded-xl font-medium text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl"
                 >
                   <span>View on Map</span>

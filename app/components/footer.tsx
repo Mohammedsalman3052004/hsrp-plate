@@ -48,6 +48,12 @@ const Footer = () => {
               >
                 Location
               </Link>
+              <Link
+                href="#booking"
+                className="block text-gray-300 hover:text-amber-400 transition-colors duration-200 font-medium"
+              >
+                Book Now
+              </Link>
             </nav>
           </div>
 
@@ -58,7 +64,7 @@ const Footer = () => {
             </h4>
             <div className="space-y-3">
               <Link
-                href="tel:9003884178"
+                href="tel:9443447469"
                 className="flex items-center justify-center lg:justify-start text-gray-300 hover:text-amber-400 transition-colors duration-200 group"
               >
                 <svg
@@ -68,7 +74,7 @@ const Footer = () => {
                 >
                   <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                 </svg>
-                <span className="font-medium">9003884178</span>
+                <span className="font-medium">9443447469</span>
               </Link>
               <Link
                 href="mailto:hsrpnumberplate1@gmail.com"
@@ -129,7 +135,7 @@ const Footer = () => {
             <h5 className="text-amber-400 font-semibold text-sm">Get in Touch</h5>
             <div className="flex space-x-4">
               <Link
-                href="tel:9003884178"
+                href="tel:9443447469"
                 className="p-2 bg-gray-800 hover:bg-amber-400 text-gray-300 hover:text-gray-900 rounded-full transition-all duration-200 transform hover:scale-110"
                 aria-label="Call us"
               >
@@ -185,7 +191,7 @@ const Footer = () => {
                 </svg>
               </Link>
               <Link
-                href="https://wa.me/9003884178"
+                href="https://wa.me/9443447469"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-gray-800 hover:bg-green-600 text-gray-300 hover:text-white rounded-full transition-all duration-200 transform hover:scale-110"
