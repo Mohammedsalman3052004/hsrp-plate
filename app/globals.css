@@ -11,6 +11,7 @@ body {
   /* background: #eadcdc; */
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  position: relative;
 }
 html {
   scroll-behavior: smooth;
@@ -59,4 +60,24 @@ html {
   .xs\:h-28 {
     height: 7rem;
   }
+}
+
+.floating-icon {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 100;
+}
+.icon{
+  width: 70px;
+  height: 70px;
+}
+.call-icon{
+  background-color: #fff;
+  border-radius: 50%;
 }

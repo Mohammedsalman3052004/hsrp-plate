@@ -1,4 +1,3 @@
-import Image from "next/image"
 import Link from "next/link"
 
 const Location = () => {
@@ -13,17 +12,18 @@ const Location = () => {
 
         {/* Main Content */}
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-16">
-          {/* Image Container */}
+          {/* Iframe Container */}
           <div className="relative group">
             <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-3xl overflow-hidden shadow-2xl transform transition-all duration-500 group-hover:scale-105 group-hover:shadow-3xl">
-              <Image
-                src="/images/shop.png"
-                alt="Shop Location"
-                height={500}
-                width={500}
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2149.6556555177463!2d79.15803239576094!3d12.931042421084557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad3862417a6ef5%3A0xe2f3d674b5e741a4!2sDhanam%20Stickers!5e0!3m2!1sen!2sin!4v1752171784753!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
             {/* Decorative elements */}
             <div className="absolute -top-4 -right-4 w-8 h-8 bg-yellow-400 rounded-full opacity-80"></div>
@@ -36,7 +36,6 @@ const Location = () => {
               {/* Address Section */}
               <div className="space-y-6">
                 <div className="flex items-center gap-3 mb-4">
-                  {/* Map Pin SVG Icon */}
                   <svg className="w-8 h-8 text-yellow-500" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
                   </svg>
@@ -58,7 +57,6 @@ const Location = () => {
                   className="group inline-flex items-center gap-4 bg-gray-800 hover:bg-yellow-600 text-white px-8 py-4 rounded-xl font-medium text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl"
                 >
                   <span>View on Map</span>
-                  {/* Arrow Right SVG Icon */}
                   <svg
                     className="w-6 h-6 transition-transform duration-300 group-hover:translate-x-1 group-hover:-rotate-45"
                     fill="none"
