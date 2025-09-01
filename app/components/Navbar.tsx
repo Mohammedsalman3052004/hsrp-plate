@@ -121,6 +121,62 @@ const Navbar = () => {
         </div>
       </nav>
 
+      {/* Marquee Section */}
+      <div className="w-full bg-gradient-to-r from-red-500 to-red-600 border-t border-red-400/50 overflow-hidden">
+        <div className="relative py-2">
+          <div className="flex animate-marquee whitespace-nowrap">
+            <span className="text-white font-bold text-lg mx-8">
+              🎉 15% off on first order 🎉
+            </span>
+            <span className="text-white font-bold text-lg mx-8">
+              🎉 15% off on first order 🎉
+            </span>
+            <span className="text-white font-bold text-lg mx-8">
+              🎉 15% off on first order 🎉
+            </span>
+            <span className="text-white font-bold text-lg mx-8">
+              🎉 15% off on first order 🎉
+            </span>
+            <span className="text-white font-bold text-lg mx-8">
+              🎉 15% off on first order 🎉
+            </span>
+            <span className="text-white font-bold text-lg mx-8">
+              🎉 15% off on first order 🎉
+            </span>
+            <span className="text-white font-bold text-lg mx-8">
+              🎉 15% off on first order 🎉
+            </span>
+            <span className="text-white font-bold text-lg mx-8">
+              🎉 15% off on first order 🎉
+            </span>
+            <span className="text-white font-bold text-lg mx-8">
+              🎉 15% off on first order 🎉
+            </span>
+            <span className="text-white font-bold text-lg mx-8">
+              🎉 15% off on first order 🎉
+            </span>
+            <span className="text-white font-bold text-lg mx-8">
+              🎉 15% off on first order 🎉
+            </span>
+            <span className="text-white font-bold text-lg mx-8">
+              🎉 15% off on first order 🎉
+            </span>
+            <span className="text-white font-bold text-lg mx-8">
+              🎉 15% off on first order 🎉
+            </span>
+            <span className="text-white font-bold text-lg mx-8">
+              🎉 15% off on first order 🎉
+            </span>
+            <span className="text-white font-bold text-lg mx-8">
+              🎉 15% off on first order 🎉
+            </span>
+            <span className="text-white font-bold text-lg mx-8">
+              🎉 15% off on first order 🎉
+            </span>
+          </div>
+        </div>
+      </div>
+
       {/* Phone Numbers Section */}
       <div className="w-full bg-gradient-to-r from-yellow-400 to-yellow-500 border-t border-yellow-300/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -157,6 +213,27 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+
+      {/* CSS for marquee animation */}
+      <style jsx>{`
+        @keyframes marquee {
+          0% {
+            transform: translateX(0%);
+          }
+          100% {
+            transform: translateX(-100%);
+          }
+        }
+        
+        .animate-marquee {
+          animation: marquee 20s linear infinite;
+        }
+        
+        /* Pause animation on hover */
+        .animate-marquee:hover {
+          animation-play-state: paused;
+        }
+      `}</style>
     </>
   )
 }

@@ -43,7 +43,7 @@ const Cards = ({
         </h2>
 
         {/* Description */}
-        <p className="text-gray-600 leading-relaxed text-xs sm:text-sm lg:text-base">{paragraph}</p>
+        <p className="text-gray-600 leading-relaxed text-xs sm:text-sm lg:text-base leading-[1.8]">{paragraph}</p>
 
         {/* Decorative Bottom Element */}
         <div className="absolute bottom-0 right-0 w-8 h-8 lg:w-16 lg:h-16 bg-yellow-500/10 rounded-full translate-x-4 translate-y-4 lg:translate-x-8 lg:translate-y-8 group-hover:scale-150 transition-transform duration-700"></div>

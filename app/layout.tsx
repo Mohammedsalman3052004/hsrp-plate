@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "HSRP Number Plate Tamil Nadu - Government Approved IND Plates",
-  description: "Order HSRP Number Plates anywhere in Tamil Nadu including Chennai, Vellore, Coimbatore, Madurai, Trichy, and more. Premium IND plates with fast delivery and official fitment service.",
+  description: "Order HSRP Number Plates anywhere in Tamil Nadu including Chennai, Vellore, Coimbatore, Madurai, Trichy, and more. Premium aluminium HSRP number plates with tamper-proof security locks and quick delivery.",
   keywords: "HSRP number plate Vellore, HSRP plate Chennai, HSRP number plate Coimbatore, HSRP in Madurai, high security number plate Tamil Nadu, IND plate Vellore, car plate Chennai, bike plate Madurai, HSRP Trichy, IND plates Tamil Nadu",
   authors: [
     { name: "HSRP Team", url: "https://www.hsrpnumberplates.shop/" },
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     url: "https://www.hsrpnumberplates.shop/",
     siteName: "HSRP Number Plate",
     title: "HSRP Number Plate Tamil Nadu | Vellore, Chennai, Coimbatore & More",
-    description: "Get your government-approved HSRP IND number plates delivered across Tamil Nadu. We serve major cities like Chennai, Vellore, Madurai, Trichy, Coimbatore, and more.",
+    description: "Order HSRP Number Plates anywhere in Tamil Nadu including Chennai, Vellore, Coimbatore, Madurai, Trichy, and more. Premium aluminium HSRP number plates with tamper-proof security locks and quick delivery.",
     images: [
       {
         url: "/og-image.jpg",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     site: "@HSRP_Official",
     creator: "@MohammedSalman",
     title: "HSRP Number Plate Tamil Nadu | Fast Delivery & Fitment",
-    description: "Fast and secure HSRP Number Plates for Tamil Nadu cities. Official IND plates for cars and bikes with government compliance.",
+    description: "Order HSRP Number Plates anywhere in Tamil Nadu including Chennai, Vellore, Coimbatore, Madurai, Trichy, and more. Premium aluminium HSRP number plates with tamper-proof security locks and quick delivery.",
     images: ["/og-image.jpg"],
   },
   alternates: {

@@ -16,27 +16,26 @@ const HomeCtc = () => {
       <div className="padding-global">
         <div className="main-container learning-journey-container">
           <div className="px-6 text-justify full-width">
-            <h4 className="">
-              At our trusted{" "}
+            <h4>
+              We provide trusted{" "}
               <span className="text-yellow-400">
-                HSRP Number plate service
-              </span>
-              , we specialize in High Security Registration Plates (HSRP) and
-              IND number plates for all types of vehicles across India. With a
-              legacy of excellence{" "}
-              <span className="text-yellow-400">
-                since 1984
-              </span>
-              , we provide fast, legal, and RTO-approved number plates that
-              ensure vehicle safety and compliance. Whether you need a new HSRP
-              plate, a replacement IND plate, or personalized options, our
-              expert team offers both online and offline services for your
-              convenience. Enjoy quick delivery, high-quality aluminum plates
-              with laser-etched codes, and tamper-proof features. We also
-              support bulk orders, custom fittings, and doorstep installation.
-              Trusted by thousands, we offer reliable customer support and
-              secure payment methods. Enhance your vehicle&apos;s identity and
-              compliance with India&apos;s top-rated number plate provider.
+                HSRP Number Plate services
+              </span>{" "}
+              across India, offering high-quality{" "}
+              <span className="text-yellow-400">aluminium plates</span> designed
+              for long-lasting durability and a premium look. Each plate comes
+              with non-reusable security locks that are{" "}
+              <span className="text-yellow-400">tamper-proof</span>, ensuring
+              your vehicle’s identity remains safe and unique. Once detached,
+              the locks cannot be reused, giving you complete peace of mind.
+              These plates are electronically linked to your vehicle, making
+              them highly secure and impossible to duplicate.  
+              <br />
+              <br />
+              With our true commitment to quality and reliable service, we make
+              the process simple and convenient—whether you need a fresh HSRP,
+              a replacement, or custom fitting. Thousands of customers trust us
+              for quick delivery, professional support, and secure installation.
             </h4>
           </div>
         </div>

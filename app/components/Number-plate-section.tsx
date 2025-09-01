@@ -2,73 +2,70 @@ import Cards from "./cards"
 
 const cardsData = [
   {
-    images: "/images/c4.jpg",
+    images: "/images/bike-normal.png",
     title: "Bike Number Plate (Normal)",
     pricing: "₹350 - ₹450",
-    paragraph:
-      "High-quality standard white background number plate with black embossed letters. Ideal for petrol-driven two-wheelers, offering long-lasting durability and a classic look.",
+    paragraph: "Durable white plate with black embossed letters for petrol bikes.",
   },
   {
-    images: "/images/c1.jpg",
+    images: "/images/111.jpg",
     title: "Bike Number Plate (IND)",
     pricing: "₹450 - ₹700",
-    paragraph: "Premium white IND-compliant number plate with hologram and embossed characters. Ensures high security and visibility while meeting government regulations for standard fuel bikes.",
+    paragraph: "IND-compliant white plate with hologram and embossing for security.",
   },
   {
     images: "/images/c13.png",
     title: "EV Bike Number Plate (IND)",
     pricing: "₹450 - ₹700",
-    paragraph: "Green IND number plate designed for electric two-wheelers with embossed characters and clear visibility. Complies with EV vehicle norms and ensures eco-friendly identification.",
+    paragraph: "Green IND plate for electric bikes, embossed and EV norm compliant.",
   },
   {
     images: "/images/c3.jpg",
-    title: "Bike Number Plate (plane)",
+    title: "Bike Number Plate (Plain)",
     pricing: "₹100 - ₹150",
-    paragraph:
-      "Budget-friendly bike number plates with a clean, plain design. Perfect for those seeking simplicity and affordability without compromising quality.",
+    paragraph: "Simple, budget-friendly plain design with reliable quality.",
   },
   {
     images: "/images/c5.jpg",
     title: "Bike Number Plate (Case)",
     pricing: "₹160 - ₹200",
-    paragraph:
-      "Durable bike number plate holders designed for secure fitting and long-lasting use. Weather-resistant and ideal for protecting your plate from damage.",
+    paragraph: "Durable, weather-resistant holder for secure bike plate fitting.",
   },
   {
-    images: "/images/home.jpg",
+    images: "/images/black-plate.jpeg",
     title: "Car Number Plate (Normal)",
     pricing: "₹600 - ₹900",
-    paragraph: "High-quality car number plates with a premium silver-white finish. Ideal for private vehicles, offering durability and a sleek look that meets modern standards.",
+    paragraph: "Premium silver-white plate for private cars with a sleek look.",
   },
   {
-    images: "/images/c8.jpg",
+    images: "/images/car-ind.png",
     title: "Car Number Plate (IND)",
     pricing: "₹800 - ₹1200",
-    paragraph: "Sturdy IND-compliant car plates with hologram and embossed details. Designed for enhanced visibility and official recognition for all types of vehicles.",
+    paragraph: "Sturdy IND-compliant car plate with hologram and embossing.",
   },
   {
-    images: "/images/c7.jpg",
+    images: "/images/yellow.webp",
     title: "Car Yellow Number Plate (Normal)",
     pricing: "₹600 - ₹900",
-    paragraph: "Robust yellow background number plates for commercial vehicles. Features clear embossed text for improved legibility and long-term reliability.",
+    paragraph: "Robust yellow plate for commercial vehicles with clear embossing.",
   },
   {
-    images: "/images/c6.jpg",
+    images: "/images/yellow-ind.webp",
     title: "Car Yellow Number Plate (IND)",
     pricing: "₹800 - ₹1200",
-    paragraph: "Government-approved IND format plates for commercial use. Comes with security holograms and strong embossing to meet transport department norms.",
+    paragraph: "Govt-approved IND plate with hologram and strong embossing.",
   },
   {
     images: "/images/c12.jpg",
     title: "EV Car Number Plate (IND)",
     pricing: "₹800 - ₹1200",
-    paragraph: "Official green number plates for electric vehicles with IND compliance. Features hologram and embossed text for improved visibility, safety, and recognition on the road.",
+    paragraph: "Green IND plate for EV cars with hologram and clear visibility.",
   },
   {
     images: "/images/c10.jpg",
     title: "Car Number Plate (Case)",
     pricing: "₹200 - ₹250",
-    paragraph: "Strong and durable car number plate holders with universal fit. Designed to protect plates from damage and enhance overall appearance with easy installation.",
+    paragraph: "Strong universal holder that protects and enhances car plates.",
   },
 ]
 
@@ -82,7 +79,7 @@ export default function Page() {
             HSRP Number Plate <span className="text-yellow-500">Sales</span>
           </h1>
           <p className="text-sm sm:text-base lg:text-xl text-gray-600 max-w-2xl mx-auto">
-            Professional number plate solutions with premium quality and fast delivery
+            Premium aluminium HSRP number plates with tamper-proof security locks and quick delivery.
           </p>
         </div>
 
@@ -102,7 +99,7 @@ export default function Page() {
         {/* Additional Info Section */}
         <div className="mt-8 lg:mt-16 text-center">
           <p className="text-gray-500 text-xs sm:text-sm lg:text-base">
-            * Prices do not include delivery charges. All plates comply with government regulations.
+            * Prices do not include delivery charges. All plates are crafted with premium quality and durability.
           </p>
         </div>
       </div>
