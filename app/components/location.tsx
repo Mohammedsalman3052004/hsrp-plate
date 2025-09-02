@@ -11,9 +11,9 @@ const Location = () => {
         </div>
 
         {/* Main Content */}
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-16">
+        <div className="flex flex-col lg:flex-row items-center  justify-center gap-12 lg:gap-16">
           {/* Iframe Container */}
-          <div className="relative group">
+          {/* <div className="relative group">
             <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-3xl overflow-hidden shadow-2xl transform transition-all duration-500 group-hover:scale-105 group-hover:shadow-3xl">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2149.6556555177463!2d79.15803239576094!3d12.931042421084557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad3862417a6ef5%3A0xe2f3d674b5e741a4!2sDhanam%20Stickers!5e0!3m2!1sen!2sin!4v1752171784753!5m2!1sen!2sin"
@@ -25,10 +25,9 @@ const Location = () => {
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
-            {/* Decorative elements */}
             <div className="absolute -top-4 -right-4 w-8 h-8 bg-yellow-400 rounded-full opacity-80"></div>
             <div className="absolute -bottom-4 -left-4 w-6 h-6 bg-yellow-500 rounded-full opacity-60"></div>
-          </div>
+          </div> */}
 
           {/* Content */}
           <div className="flex-1 max-w-2xl">

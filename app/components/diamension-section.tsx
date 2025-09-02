@@ -15,7 +15,7 @@ export default function DimensionsSection() {
           Number Plate Dimensions (HSRP)
         </h2>
         <p className="text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-          Standard High Security Registration Plate (HSRP) dimensions as specified
+          Standard HSRP dimensions as specified
           by the Ministry of Road Transport and Highways, India. Sizes vary by
           vehicle category.
         </p>
@@ -49,9 +49,7 @@ export default function DimensionsSection() {
         </div>
 
         <div className="mt-8 text-sm text-gray-500 max-w-2xl mx-auto">
-          All HSRP plates are made of aluminium with chromium hologram and laser-etched
-          permanent identification numbers. Plates are mandatory on both front and rear
-          of the vehicle as per government regulations.
+          All HSRP plates are crafted from aluminium with a chromium hologram and laser-etched identification numbers, ensuring authenticity and durability. They must be fixed on both the front and rear of the vehicle.
         </div>
       </div>
     </section>

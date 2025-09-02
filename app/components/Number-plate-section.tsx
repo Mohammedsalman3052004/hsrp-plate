@@ -14,7 +14,7 @@ const cardsData = [
     paragraph: "IND-compliant white plate with hologram and embossing for security.",
   },
   {
-    images: "/images/c13.png",
+    images: "/images/ev.jpg",
     title: "EV Bike Number Plate (IND)",
     pricing: "₹450 - ₹700",
     paragraph: "Green IND plate for electric bikes, embossed and EV norm compliant.",
@@ -35,7 +35,7 @@ const cardsData = [
     images: "/images/black-plate.jpeg",
     title: "Car Number Plate (Normal)",
     pricing: "₹600 - ₹900",
-    paragraph: "Premium silver-white plate for private cars with a sleek look.",
+    paragraph: "High-quality silver-white IND plate offering a modern look.",
   },
   {
     images: "/images/car-ind.png",
@@ -50,10 +50,10 @@ const cardsData = [
     paragraph: "Robust yellow plate for commercial vehicles with clear embossing.",
   },
   {
-    images: "/images/yellow-ind.webp",
+    images: "/images/yellow-ind.jpg",
     title: "Car Yellow Number Plate (IND)",
     pricing: "₹800 - ₹1200",
-    paragraph: "Govt-approved IND plate with hologram and strong embossing.",
+    paragraph: "IND yellow plate with hologram security and robust embossing.",
   },
   {
     images: "/images/c12.jpg",

@@ -126,52 +126,52 @@ const Navbar = () => {
         <div className="relative py-2">
           <div className="flex animate-marquee whitespace-nowrap">
             <span className="text-white font-bold text-lg mx-8">
-              🎉 15% off on first order 🎉
+              15% offer on first order
             </span>
             <span className="text-white font-bold text-lg mx-8">
-              🎉 15% off on first order 🎉
+              15% offer on first order
             </span>
             <span className="text-white font-bold text-lg mx-8">
-              🎉 15% off on first order 🎉
+              15% offer on first order
             </span>
             <span className="text-white font-bold text-lg mx-8">
-              🎉 15% off on first order 🎉
+              15% offer on first order
             </span>
             <span className="text-white font-bold text-lg mx-8">
-              🎉 15% off on first order 🎉
+              15% offer on first order
             </span>
             <span className="text-white font-bold text-lg mx-8">
-              🎉 15% off on first order 🎉
+              15% offer on first order
             </span>
             <span className="text-white font-bold text-lg mx-8">
-              🎉 15% off on first order 🎉
+              15% offer on first order
             </span>
             <span className="text-white font-bold text-lg mx-8">
-              🎉 15% off on first order 🎉
+              15% offer on first order
             </span>
             <span className="text-white font-bold text-lg mx-8">
-              🎉 15% off on first order 🎉
+              15% offer on first order
             </span>
             <span className="text-white font-bold text-lg mx-8">
-              🎉 15% off on first order 🎉
+              15% offer on first order
             </span>
             <span className="text-white font-bold text-lg mx-8">
-              🎉 15% off on first order 🎉
+              15% offer on first order
             </span>
             <span className="text-white font-bold text-lg mx-8">
-              🎉 15% off on first order 🎉
+              15% offer on first order
             </span>
             <span className="text-white font-bold text-lg mx-8">
-              🎉 15% off on first order 🎉
+              15% offer on first order
             </span>
             <span className="text-white font-bold text-lg mx-8">
-              🎉 15% off on first order 🎉
+              15% offer on first order
             </span>
             <span className="text-white font-bold text-lg mx-8">
-              🎉 15% off on first order 🎉
+              15% offer on first order
             </span>
             <span className="text-white font-bold text-lg mx-8">
-              🎉 15% off on first order 🎉
+              15% offer on first order
             </span>
           </div>
         </div>
