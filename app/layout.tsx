@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "HSRP Number Plate Tamil Nadu - Government Approved IND Plates",
+  title: "HSRP Number Plate Tamil Nadu - IND Punching Plates Aluminium",
   description: "Order HSRP Number Plates anywhere in Tamil Nadu including Chennai, Vellore, Coimbatore, Madurai, Trichy, and more. Premium aluminium HSRP number plates with tamper-proof security locks and quick delivery.",
   keywords: "HSRP number plate Vellore, HSRP plate Chennai, HSRP number plate Coimbatore, HSRP in Madurai, high security number plate Tamil Nadu, IND plate Vellore, car plate Chennai, bike plate Madurai, HSRP Trichy, IND plates Tamil Nadu",
   authors: [
